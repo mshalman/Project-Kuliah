@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: steelblue;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+table{
+    border-collapse: collapse;
+    font-size: 14pt;
+    border: 3px solid #cccccc;
+    margin-left: 18%;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+.home{
+    margin-top: -80px;
+    background: url('banner.jpg') no-repeat center;
+    height: 90.8vh;
+}
+.report span[id="tambah"] a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 8px;
+    color: #ffffff;
+    outline: thin solid black;
+    font-size: 12pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 100px;
+    margin-left: 18%;
+    letter-spacing: 4px;
+    background: steelblue;
+    border-radius: 5px;
+}
+.report span[id="tambah"] a:hover{
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px steelblue,
+                0 0 12px steelblue,
+                0 0 10px steelblue,
+                0 0 10px steelblue;
+}
+td{
+    padding: 3px;
+    height: 25px;   
+}
+th{
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+}
+
+h2{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+.report tr td[id=""]{
+    
+    display : flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.report tr td span[id="edit"] a{
+    position: relative;
+    display: inline-block;
+    padding: 3px;
+    color: #ffffff;
+    outline: thin solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    background: steelblue;
+    border-radius: 2px;
+}
+.report span[id="edit"] a:hover{
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px steelblue,
+                0 0 12px steelblue,
+                0 0 10px steelblue,
+                0 0 10px steelblue;
+}
+.report tr td span[id="hapus"] a{
+    position: relative;
+    display: inline-block;
+    padding: 3px;
+    color: #ffffff;
+    outline: thin solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    background: red;
+    border-radius: 2px;
+}
+.report span[id="hapus"] a:hover{
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px red,
+                0 0 12px red,
+                0 0 10px red,
+                0 0 10px red;
+}

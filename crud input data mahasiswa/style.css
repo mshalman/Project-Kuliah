@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: steelblue;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+table{
+    border-collapse: collapse;
+    font-size: 10pt;
+    border: 2px solid #cccccc;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+.report span[id="tambah"] a{
+    text-decoration: none;
+    color: white;
+    background-color: steelblue;
+    text-shadow: 0.8px 0.8px 0.8px black; 
+    outline: thin solid black;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 20%;
+    
+}
+.report span[id="tambah"] a:hover{
+    color: black;
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}
+td{
+    padding: 3px;
+    height: 25px;   
+}
+th{
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+}
+
+h2{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+.report tr td[id=""]{
+    
+    display : flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+.report tr td span[id="edit"] a{
+    text-decoration: none;
+    color: white;
+    background-color: steelblue;
+    text-shadow: 0.8px 0.8px 0.8px black; 
+    outline: thin solid black;
+    border-radius: 2px;
+    padding: 3px;
+}
+.report span[id="edit"] a:hover{
+    color: black;
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}
+.report tr td span[id="hapus"] a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    text-shadow: 0.8px 0.8px 0.8px black;
+    outline: thin solid black;
+    border-radius: 2px;
+    padding: 3px;
+}
+.report span[id="hapus"] a:hover{
+    color: black;
+    text-shadow: 0.8px 0.8px 0.8px white;
+    outline: thin solid black;
+    box-shadow: 0 0 1px black,
+                0 0 12px black,
+                0 0 10px black,
+                0 0 10px black;
+}

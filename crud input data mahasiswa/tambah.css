@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 100vh;
+    margin: -20px 0 50px;
+    padding: 10PX;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 110px 0 ;
+    
+}
+.navbar{
+    margin: -540px 0 50px;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: steelblue;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position :relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+} 
+.right-container input[type=submit] {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    outline: thin solid black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    background: steelblue;
+    border-radius: 5px;
+}
+.right-container input[type=submit]:hover{
+    text-shadow: 0.8px 0.8px 0.8px white; 
+    outline: thin solid black;
+    box-shadow: 0 0 1px steelblue,
+                0 0 12px steelblue,
+                0 0 10px steelblue,
+                0 0 10px steelblue;
+}
+.card-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    outline: solid black;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    overflow: hidden;
+    margin-top: 100px;
+}  
+.left {
+    flex: 1;
+    height: 460px;
+    background-color:  steelblue;
+}
+.right {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background-color: #ffff;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    display: flex;
+    flex: 1;
+    height: 460px;
+    width: 560px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.left p{
+    font-size: 0.8rem;   
+}
+.left-container{
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    line-height: 22px;
+    margin-bottom: 125px;
+
+}
+.left-container span[id="kembali"] a{
+    position: relative;
+    display: inline-block;
+    padding: 7px 40px;
+    margin-top: -4px;
+    color: #ffffff;
+    outline: thin solid black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    background: red;
+    border-radius: 5px;
+}
+.left-container span[id="kembali"] a:hover{
+    box-shadow: 0 0 1px red,
+                0 0 12px red,
+                0 0 10px red,
+                0 0 10px red;
+}
+.left-container h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.left p{
+    font-size: 18px;  
+    margin-bottom: 5px; 
+}
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+h1{
+    font-size: 1.5rem;
+    color: steelblue;
+}
+
+.right-container{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+.right-container td{
+    font-size: 15px;
+}
+.right-container th{
+    font-size: 15px;
+}
+   
+input, textarea{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 11pt;
+}
